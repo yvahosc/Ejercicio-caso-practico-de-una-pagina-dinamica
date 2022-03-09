@@ -2,7 +2,6 @@ var express = require('express');
 var router = express.Router();
 const mongoose = require('mongoose');
 const Game = require('../models/game.js');
-const Gamer = require('../models/gamer.js');
 
 /**
  * Creación de la ruta GET que lleva 

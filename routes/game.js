@@ -1,7 +1,6 @@
 var express = require('express');
 var router = express.Router();
 const Game = require('../models/game.js');
-const Gamer = require('../models/gamer.js');
 
 
 /**
